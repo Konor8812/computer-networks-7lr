@@ -29,7 +29,7 @@ public class MainController {
   }
 
   @GetMapping("articles/{id}")
-  public ResponseEntity<String> getAllArticles(@PathVariable String id)
+  public ResponseEntity<String> getArticle(@PathVariable String id)
       throws JsonProcessingException {
     var article = requestProcessor.getArticle(id);
     return ResponseEntity.ok(
