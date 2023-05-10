@@ -1,10 +1,11 @@
-package com.illia.komputernetworks7lr.controller;
+package com.illia.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.illia.komputernetworks7lr.model.entity.Article;
-import com.illia.komputernetworks7lr.service.RequestProcessor;
+import com.illia.model.entity.Article;
+import com.illia.service.RequestProcessor;
 import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("api")
-@AllArgsConstructor
+@RequiredArgsConstructor
 public class MainController {
 
   private final RequestProcessor requestProcessor;

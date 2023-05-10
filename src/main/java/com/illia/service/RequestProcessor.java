@@ -1,8 +1,8 @@
-package com.illia.komputernetworks7lr.service;
+package com.illia.service;
 
-import com.illia.komputernetworks7lr.generator.ArticleGenerator;
-import com.illia.komputernetworks7lr.model.entity.Article;
-import com.illia.komputernetworks7lr.storage.Holder;
+import com.illia.generator.ArticleGenerator;
+import com.illia.model.entity.Article;
+import com.illia.storage.Holder;
 import java.util.List;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

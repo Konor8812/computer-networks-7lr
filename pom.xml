@@ -12,8 +12,8 @@
   <groupId>com.illia</groupId>
   <artifactId>computer-networks-7lr</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>komputer-networks-7lr</name>
-  <description>komputer-networks-7lr</description>
+  <name>computer-networks-7lr</name>
+  <description>computer-networks-7lr</description>
   <properties>
     <java.version>17</java.version>
   </properties>

@@ -1,7 +1,7 @@
-package com.illia.komputernetworks7lr.generator;
+package com.illia.generator;
 
 
-import com.illia.komputernetworks7lr.model.entity.Article;
+import com.illia.model.entity.Article;
 import java.util.Random;
 import org.springframework.stereotype.Component;
 

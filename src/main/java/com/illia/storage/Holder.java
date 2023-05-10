@@ -1,7 +1,7 @@
-package com.illia.komputernetworks7lr.storage;
+package com.illia.storage;
 
 
-import com.illia.komputernetworks7lr.model.entity.Article;
+import com.illia.model.entity.Article;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

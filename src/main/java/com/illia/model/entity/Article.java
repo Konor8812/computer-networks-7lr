@@ -1,4 +1,4 @@
-package com.illia.komputernetworks7lr.model.entity;
+package com.illia.model.entity;
 
 
 import lombok.Builder;
